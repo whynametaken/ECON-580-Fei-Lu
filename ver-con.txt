@@ -1,3 +1,5 @@
 type in something, check status, then add
 2) git add then commit
 3) Changes are saved by git commit -m '' command
+what does git diff do?
+it shows the latest chage
