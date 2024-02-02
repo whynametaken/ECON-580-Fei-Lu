@@ -3,3 +3,5 @@ type in something, check status, then add
 3) Changes are saved by git commit -m '' command
 git diff: it shows the latest chage
 git status: shows what files are modified, and stuff you need to do
+git log -1: shows the first edit
+git checkout (version/ID) : changes the file to whichever wanted version
