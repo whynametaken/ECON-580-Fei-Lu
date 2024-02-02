@@ -20,3 +20,8 @@ git remote -v: check origin + check connected to github
 git push origin main: uploades local files to Github
 git pull: needed if git push fails (when repository work doesn't match 
 directory?)
+
+3) collaborator work:
+git clone + github repo SSH link + ~/Desktop/directory (creates new 
+directory and tells the files where to go)
+cd ~/Desktop/directory (go to file directory to access files)
