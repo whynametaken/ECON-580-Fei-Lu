@@ -1,12 +1,13 @@
-type in something, check status, then add
-2) git add then commit
-3) Changes are saved by git commit -m '' command
-git diff: it shows the latest chage
-git status: shows what files are modified, and stuff you need to do
-git log -1: shows the first edit
-git checkout (version/ID) : changes the file to whichever wanted version
+1) nano filename.txt
+ git add then commit
+ Changes are saved by git commit -m '' command
 
-From git to github:
+	git diff: it shows the latest chage
+	git status: shows what files are modified, and stuff you need to do
+	git log -1: shows the first edit
+	git checkout (version/ID) : changes the file to whichever wanted version
+
+2) From git to github:
 git remote add origin + SSH link from github
 git remote -v: check origin + check connected to github
 
@@ -15,4 +16,7 @@ git remote -v: check origin + check connected to github
 	
 	copy the SSH public key to Github to establish connection
 		cat ~/.ssh/id_ed25519.pub
+
 git push origin main: uploades local files to Github
+git pull: needed if git push fails (when repository work doesn't match 
+directory?)
