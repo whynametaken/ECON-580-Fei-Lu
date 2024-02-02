@@ -4,5 +4,10 @@ But the Mummy will appreciate the lack of humidity
 repeating again
 This line added to Wolfman's copy
 We added a different line in the other copy
+<<<<<<< HEAD
 This is added from planet desktop
 planet is the owner directory
+=======
+Another line from planet
+from fei-planet
+>>>>>>> Add a line in my copy
