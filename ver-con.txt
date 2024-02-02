@@ -9,3 +9,10 @@ git checkout (version/ID) : changes the file to whichever wanted version
 From git to github:
 git remote add origin + SSH link from github
 git remote -v: check origin + check connected to github
+
+	SSH keys pair generation: ssh-keygen -t ed25519 -C 'email'
+ (if you have done it once on a laptop, don't need to do it again)
+	
+	copy the SSH public key to Github to establish connection
+		cat ~/.ssh/id_ed25519.pub
+git push origin main: uploades local files to Github
