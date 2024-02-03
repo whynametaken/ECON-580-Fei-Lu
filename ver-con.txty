@@ -38,3 +38,12 @@ This is from ver-control directory, and can be pushed without rebasing
 
 This is from owner, can I push like this?
 I don't need rebasing anymore? (from col directory)
+
+git pull Vs. git pull origin main:
+git pull origin master fetches commits from the master branch of the 
+origin remote (into the local origin/master branch), and then it merges 
+origin/master into the branch you currently have checked out.
+
+git pull only works if the branch you have checked out is tracking an 
+upstream branch. For example, if the branch you have checked out tracks 
+origin/master, git pull is equivalent to git pull origin master
