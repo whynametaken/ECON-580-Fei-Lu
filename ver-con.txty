@@ -35,3 +35,5 @@ why is it telling me to rebase? (from owner)
 rebase gets it back onto main branch ready for push (from owner)
 
 This is from ver-control directory, and can be pushed without rebasing
+
+This is from owner, can I push like this?
