@@ -1,0 +1,35 @@
+1) nano filename.txt
+ git add then commit
+ Changes are saved by git commit -m '' command
+
+	git diff: it shows the latest chage
+	git status: shows what files are modified, and stuff you need to do
+	git log -1: shows the first edit
+	git checkout (version/ID) : changes the file to whichever wanted version
+
+2) From git to github:
+git remote add origin + SSH link from github
+git remote -v: check origin + check connected to github
+
+	SSH keys pair generation: ssh-keygen -t ed25519 -C 'email'
+ (if you have done it once on a laptop, don't need to do it again)
+	
+	copy the SSH public key to Github to establish connection
+		cat ~/.ssh/id_ed25519.pub
+
+git push origin main: uploades local files to Github
+git pull: needed if git push fails (when repository work doesn't match 
+directory?)
+
+<<<<<<< HEAD
+3) collaborator work:
+git clone + github repo SSH link + ~/Desktop/directory (creates new 
+directory and tells the files where to go)
+cd ~/Desktop/directory (go to file directory to access files)
+=======
+git pull origin main: gives you the effect (done in owner directory)
+This is from planets directory (acts as the owner)
+>>>>>>> from owner
+git push origin main won't work, need to rebase
+why is it telling me to rebase? (from owner)
+rebase gets it back onto main branch ready for push (from owner)
