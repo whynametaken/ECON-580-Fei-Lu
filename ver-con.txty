@@ -33,3 +33,5 @@ This is from planets directory (acts as the owner)
 git push origin main won't work, need to rebase
 why is it telling me to rebase? (from owner)
 rebase gets it back onto main branch ready for push (from owner)
+
+This is from ver-control directory, and can be pushed without rebasing
