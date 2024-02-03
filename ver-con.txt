@@ -30,3 +30,4 @@ cd ~/Desktop/directory (go to file directory to access files)
 This is from planets directory (acts as the owner)
 >>>>>>> from owner
 git pull origin main: gives you the <<< effect, different to git pull
+why is it telling me to rebase? (from owner)
