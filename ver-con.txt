@@ -21,7 +21,12 @@ git push origin main: uploades local files to Github
 git pull: needed if git push fails (when repository work doesn't match 
 directory?)
 
+<<<<<<< HEAD
 3) collaborator work:
 git clone + github repo SSH link + ~/Desktop/directory (creates new 
 directory and tells the files where to go)
 cd ~/Desktop/directory (go to file directory to access files)
+=======
+This is from planets directory (acts as the owner)
+>>>>>>> from owner
+git pull origin main: gives you the <<< effect, different to git pull
